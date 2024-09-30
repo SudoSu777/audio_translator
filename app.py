@@ -4,7 +4,7 @@ from deep_translator import GoogleTranslator
 import os
 
 # Initialize the Whisper model
-model_size = "large-v3"
+model_size = "medium"
 model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
 # Streamlit app
