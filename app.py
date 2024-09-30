@@ -27,7 +27,7 @@ def translate_text(text, target_lang):
     return translator.translate(text)
 
 # Language selection
-languages = {'French': 'fr', 'Spanish': 'es', 'German': 'de', 'Italian': 'it', 'Chinese': 'zh-CN'}
+languages = {'French': 'fr', 'Spanish': 'es', 'German': 'de', 'Italian': 'it', 'Chinese': 'zh-CN','Akan':'ak','Bambara':'bm'}
 output_lang = st.selectbox("Choose output language", options=list(languages.keys()))
 
 # Process the uploaded file
